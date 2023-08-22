@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {return view('Pages.Option');});
 Route::get('/login', function () {return view('Pages.Login');});
+Route::get('/register', function () {return view('Pages.Register');});
+Route::get('/register2', function () {return view('Pages.Register2');});

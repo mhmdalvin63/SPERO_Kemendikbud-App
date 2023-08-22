@@ -16,12 +16,12 @@
         <div class="form-group my-3">
             <div class="password-input-container">
                 <input type="password" class="form-control password-input" id="txtPasswordLogin" placeholder="Password">
-                <i class="toggle-password fa fa-eye"></i>
+                <i class="toggle-password fa fa-eye fa-sm"></i>
             </div>
             <a class="forgot my-2" href=""><p>Lupa Password?</p></a>
         </div>
         <a class="btn btn-blue w-100" href="#" role="button"><p>Masuk</p></a>
-        <p class="text-center my-2">Belum Punya Akun? <a class="mendaftar" href="">Mendaftar</a></p>
+        <p class="text-center my-2">Belum Punya Akun? <a class="mendaftar" href="/register">Mendaftar</a></p>
     </div>
 
 @endsection
