@@ -1,0 +1,48 @@
+.mySlides {
+    margin: auto;
+    /* height: 50vh; */
+    display:none
+}
+.mySlideContent{
+    /* height: 100%; */
+    width: 75%;
+    border: 1px solid rgb(218, 214, 214);
+    border-radius: 10px;
+    height: max-content;
+    margin: auto;
+}
+.mySlideContent .title{
+    border-radius: 5px 5px 0 0;
+}
+.imageCover img{
+    width: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .imageCover{
+        display: flex;
+        justify-content: center;
+    }
+    .imageCover img{
+        width: 50%;
+    }
+}
+.w3-section{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonNp{
+    display: flex;
+    justify-content: center;
+}
+.dots-button{
+    border: none;
+    background: none !important;
+}
+.w3-section .w3-button{
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    background-color: #2388FF;
+    border: none !important;
+    color: white;
+}
