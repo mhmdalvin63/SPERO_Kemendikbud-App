@@ -1,82 +1,70 @@
-.bgTop{
-    max-width: 40%; /* Ensures the image doesn't exceed its container */
-    height: auto;    /* Maintains the aspect ratio */
-    display: block;  /* Removes any extra spacing below the image */
-    margin: 0 auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.bgBottom{
-    max-width: 40%; /* Ensures the image doesn't exceed its container */
-    height: auto;    /* Maintains the aspect ratio */
-    display: block;  /* Removes any extra spacing below the image */
-    margin: 0 auto;  /* Centers the image horizontally */
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}   
-.mainContent{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.btn-blue{
-    background-color: #0062BD !important;
-    color: white !important;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif !important;
 }
 .text-blue{
-    color: #0062BD;
+    color: #2388FF !important;
+}
+.bg-blue{
+    background-color: #2388FF !important;
+    color: white !important;
+}
+.parent{
+    /* height: 75vh; */
 }
 
-/* Width Content Responsive */
+#object{
+    width: 40%;
+}
+.objectLeft{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.objectRight{
+    position: absolute;
+    Right: 0;
+    bottom: 0;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .bgTop {
-        max-width: 75%;
-      }
-      .bgBottom {
-        max-width: 75%;
-      }
+    #object{
+        width: 50%;
+    }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contentNavbarJustLogo{
+        width: 80vw;
+    }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .bgTop {
-        max-width: 50%;
-      }
-      .bgBottom {
-        max-width: 50%;
-      }
+    .contentNavbarJustLogo{
+        width: 75vw;
+    }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .bgTop {
-        max-width: 50%;
-      }
-      .bgBottom {
-        max-width: 50%;
-      }
+    .contentNavbarJustLogo{
+        width: 40vw;
+    }
 }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .bgTop {
-        max-width: 50%;
-      }
-      .bgBottom {
-        max-width: 50%;
-      }
+    .contentNavbarJustLogo{
+        width: 40vw;
+    }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .bgTop {
-        max-width: 40%;
-      }
-      .bgBottom {
-        max-width: 40%;
-      }
+    .contentNavbarJustLogo{
+        width: 40vw;
+    }
 }
-
 
 
 /* FONT SIZE RESPONSIVE */
