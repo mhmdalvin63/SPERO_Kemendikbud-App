@@ -5,46 +5,37 @@
 <link rel="stylesheet" href=" {{ asset('../css/NewPages/Otp.css')}}">
 <img class="objectLeft" id="object" src="{{asset('../../images/objectLeft.png')}}">
     <img class="objectRight" id="object" src="{{asset('../../images/objectRight.png')}}">
-<div class="OtpContent">
-    <h3 class="fw-bold text-center">MASUKKAN OTP</h3>
-        <p class="text-center">kami telah mengirimkan kode
-            akses melalui email untuk verifikasi</p>
-
-            <div class="otp-container">
-                <input class="otp-input" type="text" maxlength="1" oninput="handleInput(this)" autofocus>
-                <input class="otp-input" type="text" maxlength="1" oninput="handleInput(this)">
-                <input class="otp-input" type="text" maxlength="1" oninput="handleInput(this)">
-                <input class="otp-input" type="text" maxlength="1" oninput="handleInput(this)">
-              </div>
-
-              <div class="btn-isi d-flex justify-content-center mt-5">
-                <a class="btn bg-blue d-flex align-items-center gap-2 justify-content-center w-50" href="/welcome" role="button">
-                    <p class="fw-bold">LANJUT</p>
-                    <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
-                    <p></p>
-                </a>
-            </div>
-</div>
+    <div class="container" id="containerOtp">
+      <p class="fw-bold text-center">MASUKKAN OTP</p>
+      <p class=" text-center">kami telah mengirimkan kode <br>
+        akses melalui email untuk verifikasi</p>
+      <div class="userInput mt-4">
+        <input type="text" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
+        <input type="text" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
+        <input type="text" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
+        <input type="text" id="fourth" maxlength="1" onkeyup="clickEvent(this,'fifth')">
+        <input type="text" id="fourth" maxlength="1" onkeyup="clickEvent(this,'sixth')">
+        <input type="text" id="sixth" maxlength="1">
+      </div>
+      <div class="btn-isi d-flex justify-content-center mt-5">
+        <a class="btn bg-blue d-flex align-items-center gap-2 justify-content-center w-50" href="/kuisioner" role="button">
+            <p class="fw-bold">LANJUT</p>
+            <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
+            <p></p>
+        </a>
+      </div>
+      <p class="text-center text-danger mt-4">00:00:59</p>
+      <p class="fw-bold text-center mt-4">Tidak Menerima Kode OTP?</p>
+      <p class="text-blue text-center">Kirim Ulang Kode</p>
+    </div>
 
 @endsection
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
 
 <script src="text/javascript">
-  function handleInput(input) {
-  const nextInput = input.nextElementSibling;
-  const prevInput = input.previousElementSibling;
-
-  if (input.value) {
-    if (nextInput) {
-      nextInput.focus();
-    } else {
-      // All inputs are filled, you can now perform further actions with the OTP.
-      const otp = Array.from(document.querySelectorAll('.otp-input')).map(input => input.value).join('');
-      alert('Entered OTP: ' + otp);
-    }
-  } else if (prevInput) {
-    prevInput.focus();
-  }
-}
-
+  function clickEvent(first,last){
+			if(first.value.length){
+				document.getElementById(last).focus();
+			}
+		}
 </script>
