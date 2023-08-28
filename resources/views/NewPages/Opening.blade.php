@@ -14,7 +14,7 @@
     
     <div class="openingContent">
        <div class="content">
-        <h3 class="fw-bold">Person <span class="text-blue">Aaker</span></h3>
+        <h3 class="fw-bold">Pesona <span class="text-blue">UMKM</span></h3>
         <div class="form">
           <div class="form-group my-3">
               <div class="form-input-container">
@@ -26,9 +26,9 @@
                   <input type="password" class="form-control email-input" id="txtemailLogin" placeholder="Pasword">
               </div>
           </div>
-          <a href="" class="text-decoration-none text-end" style="color: grey;"><p>Lupa Password?</p></a>
+          <a href="/lupapassword" class="text-decoration-none text-end" style="color: grey;"><p>Lupa Password?</p></a>
         </div>
-        <div class="button text-center">
+        <div class="button text-center mt-3">
           <a class="btn btn-login bg-blue text-center" href="/otp" role="button"><p class="mb-0">Login</p></a>
         </div>
         <p class="text-center my-2">Belum Punya Akun? <a class="mendaftar" href="/register">Mendaftar</a></p>

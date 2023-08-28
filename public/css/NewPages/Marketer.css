@@ -2,6 +2,11 @@
     width: 100%;
     /* transform: translateY(-1rem); */
 }
+.parentImage img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
 
 
 .top p{
@@ -9,6 +14,9 @@
     background-color: #2388FF;
     color: white;
     border-radius: 5px;
+}
+.bottom a{
+    width: 50%;
 }
 
 .table {
@@ -43,4 +51,39 @@ tbody tr{
     border: 1px solid rgb(233, 231, 231);
     border-radius: 100%;
     padding: 1rem 0 !important;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .top p{
+        padding: .25rem .5rem;
+    }
+    .bottom a{
+        width: 75%;
+    }
+    .precentage{
+        width: 50%;
+    }
+}
+
+
+/* PRECENTAGE RESPONSIVE */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 400px) {
+    .precentage{
+        width: 30%;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .precentage{
+        width: 20%;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .precentage{
+        width: 15%;
+    }
 }
