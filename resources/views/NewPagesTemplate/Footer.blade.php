@@ -41,7 +41,7 @@
         </div>
         <div class="hr"></div>
         <div class="bottomFooter text-center">
-            <p>Copyright By @ Person Aaker 2023</p>
+            <p>Copyright By @ Pesona UMKM 2023</p>
         </div>
     </div>
 </footer>
