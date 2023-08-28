@@ -25,6 +25,12 @@ Route::get('/marketerdetail', function () {return view('NewPages.MarketerDetail'
 Route::get('/profile', function () {return view('NewPages.Profile');});
 Route::get('/lupapassword', function () {return view('NewPages.LupaPassword');});
 
+// MARKETER
+Route::get('/hasil-umkm', function () {return view('Marketer.Hasil');});
+Route::get('/umkm', function () {return view('Marketer.Umkm');});
+Route::get('/detail-umkm', function () {return view('Marketer.DetailUmkm');});
+
+
 
 // Route::get('/login', function () {return view('Pages.Login');});
 // Route::get('/register2', function () {return view('Pages.Register2');});
