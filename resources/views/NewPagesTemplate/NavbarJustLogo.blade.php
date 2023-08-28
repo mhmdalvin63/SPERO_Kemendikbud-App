@@ -18,7 +18,7 @@
     </div>
    </div>
 
-   <div class="parent d-flex justify-content-center align-items-center" style="padding-top: 3rem;">
+   <div class="parent d-flex justify-content-center align-items-center" style="padding-top: 3rem; height: 80vh;">
     <div class="contentNavbarJustLogo ">
       @yield('content')
     </div>
