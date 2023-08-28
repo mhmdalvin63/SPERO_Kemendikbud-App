@@ -4,15 +4,26 @@
 @section('contentNoCenter')
 <link rel="stylesheet" href=" {{ asset('../css/NewPages/Hasil.css')}}">
 
-<div class="hasilContent">
-    <div class="w3-content">
+<div class="hasilContent d-flex justify-content-center">
+    <div class="contentFlex mt-3">
+      <div class="w3-content">
         <div class="mySlides text-center">
           <div class="mySlideContent py-5">
-            <p>Persona Brand Anda:</p>
-          <p class="fw-bold">SINCERITY</p>
-          <img src="{{asset('../../images/orangHasil.png')}}">
-          <p><span class="text-blue">SINCERITY</span> adalah orang yang sangat tulus,
-            siap mengambil tindakan untuk melakukan apa yang mereka rasa benar.</p>
+            <div class="row justify-content-center">
+              <div class="col-10">
+                <p>Persona Brand Anda:</p>
+                <p class="fw-bold text-blue">SINCERITY</p>
+                <div class="row justify-content-center">
+                  <div class="col-md-4 col-10"> 
+                    <div class="imageCover">
+                      <img class="my-3" src="{{asset('../../images/orangHasil.png')}}">
+                    </div>
+                  </div>
+                </div>
+                <p><span class="text-blue">SINCERITY</span> adalah orang yang sangat tulus,
+                  siap mengambil tindakan untuk melakukan apa yang mereka rasa benar.</p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="mySlides">
@@ -20,7 +31,7 @@
             <div class="title text-center py-4" style="background-color: #2388FF;">
               <p class="fw-bold text-white">PIKIRAN</p>
             </div>
-            <div class="row justify-content-center py-5">
+            <div class="row justify-content-center py-sm-5 py-3">
               <div class="col-md-4 col-10 imageCover">
                 <img src="{{asset('../../images/pikiranImage.png')}}">
               </div>
@@ -56,7 +67,7 @@
             <div class="title text-center py-4" style="background-color: #9123FF;">
               <p class="fw-bold text-white">energi</p>
             </div>
-            <div class="row justify-content-center py-5">
+            <div class="row justify-content-center py-sm-5 py-3">
               <div class="col-md-4 col-10 imageCover">
                 <img src="{{asset('../../images/energi.png')}}">
               </div>
@@ -92,7 +103,7 @@
             <div class="title text-center py-4" style="background-color: #1C8E00;">
               <p class="fw-bold text-white">ALAM</p>
             </div>
-            <div class="row justify-content-center py-5">
+            <div class="row justify-content-center py-sm-5 py-3">
               <div class="col-md-4 col-10 imageCover">
                 <img src="{{asset('../../images/alam.png')}}">
               </div>
@@ -128,7 +139,7 @@
             <div class="title text-center py-4" style="background-color: #AD000A;">
               <p class="fw-bold text-white">TAKTIK</p>
             </div>
-            <div class="row justify-content-center py-5">
+            <div class="row justify-content-center py-sm-5 py-3">
               <div class="col-md-4 col-10 imageCover">
                 <img src="{{asset('../../images/taktik.png')}}">
               </div>
@@ -164,7 +175,7 @@
             <div class="title text-center py-4" style="background-color: #D88100;">
               <p class="fw-bold text-white">IDENTITAS</p>
             </div>
-            <div class="row justify-content-center py-5">
+            <div class="row justify-content-center py-sm-5 py-3">
               <div class="col-md-4 col-10 imageCover">
                 <img src="{{asset('../../images/taktik.png')}}">
               </div>
@@ -195,27 +206,27 @@
             </div>
           </div>
         </div>
-    </div>
-    <div class="w3-center text-center">
-        <button class="dots-button demo" onclick="currentDiv(1)">&#8226;</button> 
-        <button class="dots-button demo" onclick="currentDiv(2)">&#8226;</button> 
-        <button class="dots-button demo" onclick="currentDiv(3)">&#8226;</button> 
-        <button class="dots-button demo" onclick="currentDiv(4)">&#8226;</button> 
-        <button class="dots-button demo" onclick="currentDiv(5)">&#8226;</button> 
-        <button class="dots-button demo" onclick="currentDiv(6)">&#8226;</button> 
-        <div class="buttonNp">
-          <div class="w3-section">
-            <button class="w3-button w3-light-grey" onclick="plusDivs(-1)"><p>❮ Sebelumnya</p></button>
-            <button class="w3-button w3-light-grey" onclick="plusDivs(1)"><p>Selanjutnya  ❯</p></button>
-          </div>
+        <div class="w3-center text-center">
+            <button class="dots-button demo" onclick="currentDiv(1)">&#8226;</button> 
+            <button class="dots-button demo" onclick="currentDiv(2)">&#8226;</button> 
+            <button class="dots-button demo" onclick="currentDiv(3)">&#8226;</button> 
+            <button class="dots-button demo" onclick="currentDiv(4)">&#8226;</button> 
+            <button class="dots-button demo" onclick="currentDiv(5)">&#8226;</button> 
+            <button class="dots-button demo" onclick="currentDiv(6)">&#8226;</button> 
+            <div class="buttonNp">
+              <div class="w3-section">
+                <button class="w3-button w3-light-grey" onclick="plusDivs(-1)"><p>❮ Sebelumnya</p></button>
+                <button class="w3-button w3-light-grey" onclick="plusDivs(1)"><p>Selanjutnya  ❯</p></button>
+              </div>
+            </div>
+            
         </div>
-        
-    </div>
+      </div>
 
-    <div class="FooterKuisioner" style="padding-top: 2.5rem;">
-      @include('NewPagesTemplate.Footer')
   </div>
-    </div>
+</div>
+<div class="FooterKuisioner" style="padding-top: 2.5rem;">
+  @include('NewPagesTemplate.Footer')
 </div>
 @endsection
  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>

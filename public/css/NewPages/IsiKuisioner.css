@@ -18,3 +18,13 @@
 .soal{
     height: max-content;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .header .container{
+        transform: translateY(2rem);
+    }
+    .header .container:nth-child(2){
+        transform: translateY(5rem);
+    }
+}

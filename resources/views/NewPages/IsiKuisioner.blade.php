@@ -8,8 +8,8 @@
     <div class="header">
        <div class="container">
         <h3 class="text-center text-white mb-5 fw-bold">TENTUKAN PERSONA <br> BRAND ANDA</h3>
-        <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-sm-center">
-            <div class="col mt-2">
+        <div class="row justify-content-center">
+            <div class=" col-10 col-sm-6 col-md-4 mt-2">
                 <div class="card p-4 mx-sm-0 mx-2">
                     <div class="card-img d-flex justify-content-center mb-3">
                         <img src="{{asset('../../images/IsiKuisioner.png')}}">
@@ -19,7 +19,7 @@
                         kepribadian Anda.</p>
                 </div>
             </div>
-            <div class="col mt-2">
+            <div class=" col-10 col-sm-6 col-md-4 mt-2">
                 <div class="card p-4 mx-sm-0 mx-2">
                     <div class="card-img d-flex justify-content-center mb-3">
                         <img src="{{asset('../../images/IsiKuisioner.png')}}">
@@ -29,7 +29,7 @@
                         kepribadian Anda.</p>
                 </div>
             </div>
-            <div class="col mt-2">
+            <div class=" col-10 col-sm-6 col-md-4 mt-2">
                 <div class="card p-4 mx-sm-0 mx-2">
                     <div class="card-img d-flex justify-content-center mb-3">
                         <img src="{{asset('../../images/IsiKuisioner.png')}}">
@@ -54,7 +54,7 @@
                 <div class="col-12">
                     <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -68,7 +68,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -87,7 +87,7 @@
                 <div class="col-12">
                     <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -101,7 +101,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -120,7 +120,7 @@
                 <div class="col-12">
                     <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -134,7 +134,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -153,7 +153,7 @@
                 <div class="col-12">
                     <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -167,7 +167,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -186,7 +186,7 @@
                 <div class="col-12">
                     <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -200,7 +200,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -219,7 +219,7 @@
                 <div class="col-12">
                     <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -233,7 +233,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -252,7 +252,7 @@
                 <div class="col-12">
                     <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -266,7 +266,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -285,7 +285,7 @@
                 <div class="col-12">
                     <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -299,7 +299,7 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -318,7 +318,7 @@
                 <div class="col-12">
                     <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -332,7 +332,40 @@
                         </label>
                     </div>
                 </div>
-                <div class="col-6 mt-2">
+                <div class="col-sm-6 col-12 mt-2">
+                    <div class="form-check mt-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            <p>Dengan mesin produksi dan alat produksi manual</p>
+                        </label>
+                    </div>
+                    <div class="form-check mt-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            <p>Dengan mesin produksi</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 foreach">
+                <div class="col-12">
+                    <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
+                </div>
+                <div class="col-sm-6 col-12 mt-2">
+                    <div class="form-check mt-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                           <p> Manual dengan tenaga manusia</p>
+                        </label>
+                    </div>
+                    <div class="form-check mt-2">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            <p>Dengan alat produksi manual</p>
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -349,8 +382,8 @@
             </div>
         </div>
         <div class="btn-next d-flex justify-content-center mt-5">
-            <a class="btn bg-blue d-flex align-items-center gap-2 justify-content-center py-sm-3 py-2 px-5" href="#" role="button">
-                <p>ISI KUISIONER</p>
+            <a class="btn bg-blue d-flex align-items-center gap-2 justify-content-center py-sm-3 py-2 px-5" href="/hasil" role="button">
+                <p>Selanjutnya</p>
                 <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
                 <p></p>
             </a>

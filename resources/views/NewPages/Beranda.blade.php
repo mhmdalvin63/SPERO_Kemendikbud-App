@@ -4,7 +4,7 @@
 @section('contentNavbarLengkap')
 <link rel="stylesheet" href=" {{ asset('../css/NewPages/Beranda.css')}}">
 
-<div class="header"  style="padding-top: 3.5rem;">
+<div class="header"  style="padding-top: 2.75rem;">
     <img src="{{asset('../../images/bannerBeranda.png')}}">
 </div>
 
@@ -43,10 +43,10 @@
             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"
                 tabindex="0">
                 <div class="row">
-                    <div class="col-2 text-end parentImageHasil">
+                    <div class="col-sm-2 d-sm-block d-none text-end parentImageHasil">
                         <img src="{{asset('../../images/hasilIcon.png')}}">
                     </div>
-                    <div class="col-10">
+                    <div class="col-sm-10 col-11">
                         <p class="fw-bold">Persona Brand Anda :</p>
                         <h3 class="text-blue fw-bolder">SINCERITY</h3>
                         <p class="mt-3">SINCERITY adalah orang yang sangat tulus, siap mengambil
@@ -326,69 +326,18 @@
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div id="SocialMedia" class="container tab-pane active"><br>
-                        <div class="tabPaneContent d-flex align-items-center gap-5">
+                        <div class="tabPaneContent d-block d-sm-flex text-sm-start text-center align-items-center gap-5">
                             <div class="tpcImage">
                                 <img src="{{asset('../../images/tiktokImage.png')}}">
                             </div>
                             <div class="tcpTex">
-                                <p class="fw-bold">TikTok</p>
+                                <p class="fw-bold my-sm-0 my-2">TikTok</p>
                                 <p>Sesuai dengan hasil test. Sosial Media
                                     yang tepat untuk Anda berjualan Online saat ini adalah TikTok</p>
                             </div>
                         </div>
                         <div class="hr-jumbo"></div>
-                        <div class="apk d-flex align-items-center gap-5 p-3 mt-3">
-                            <div class="apkImg">
-                                <img src="{{asset('../../images/tiktokMini.png')}}">
-                            </div>
-                            <div class="apkText">
-                                <p class=" my-3"><span class="fw-bold">TikTok</span> untuk saat ini platform paling
-                                    cocok untuk anda
-                                    berjualan.</p>
-                                <div class="progressBar d-flex align-items-center gap-2 my-3">
-                                    <div class="progress w-100" role="progressbar" aria-label="Basic example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar w-75"></div>
-                                    </div>
-                                    <p class="text-blue fw-bolder">95%</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="apk d-flex align-items-center gap-5 p-3 mt-3">
-                            <div class="apkImg">
-                                <img src="{{asset('../../images/tiktokMini.png')}}">
-                            </div>
-                            <div class="apkText">
-                                <p class=" my-3"><span class="fw-bold">TikTok</span> untuk saat ini platform paling
-                                    cocok untuk anda
-                                    berjualan.</p>
-                                <div class="progressBar d-flex align-items-center gap-2 my-3">
-                                    <div class="progress w-100" role="progressbar" aria-label="Basic example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar w-75"></div>
-                                    </div>
-                                    <p class="text-blue fw-bolder">95%</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="apk d-flex align-items-center gap-5 p-3 mt-3">
-                            <div class="apkImg">
-                                <img src="{{asset('../../images/tiktokMini.png')}}">
-                            </div>
-                            <div class="apkText">
-                                <p class=" my-3"><span class="fw-bold">TikTok</span> untuk saat ini platform paling
-                                    cocok untuk anda
-                                    berjualan.</p>
-                                <div class="progressBar d-flex align-items-center gap-2 my-3">
-                                    <div class="progress w-100" role="progressbar" aria-label="Basic example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar w-75"></div>
-                                    </div>
-                                    <p class="text-blue fw-bolder">95%</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="apk d-flex align-items-center gap-5 p-3 mt-3">
+                        <div class="apk d-block d-sm-flex text-sm-start text-center align-items-center gap-5 p-3 mt-3">
                             <div class="apkImg">
                                 <img src="{{asset('../../images/tiktokMini.png')}}">
                             </div>
@@ -420,71 +369,20 @@
                     </div>
 
                     <div id="OnlineShop" class="container tab-pane fade"><br>
-                        <div class="tabPaneContent d-flex align-items-center gap-5">
+                        <div class="tabPaneContent d-block d-sm-flex text-sm-start text-center align-items-center gap-5">
                             <div class="tpcImage">
                                 <img src="{{asset('../../images/shopeeImg.png')}}">
                             </div>
                             <div class="tcpTex">
-                                <p class="fw-bold">TikTok</p>
+                                <p class="fw-bold my-sm-0 my-2">TikTok</p>
                                 <p>Sesuai dengan hasil test. Sosial Media
                                     yang tepat untuk Anda berjualan Online saat ini adalah TikTok</p>
                             </div>
                         </div>
                         <div class="hr-jumbo"></div>
-                        <div class="apk d-flex align-items-center gap-5 p-3 mt-3">
+                        <div class="apk d-sm-flex d-block text-sm-start text-center align-items-center gap-5 p-3 mt-3">
                             <div class="apkImg">
                                 <img src="{{asset('../../images/shopeeMini.png')}}">
-                            </div>
-                            <div class="apkText">
-                                <p class=" my-3"><span class="fw-bold">TikTok</span> untuk saat ini platform paling
-                                    cocok untuk anda
-                                    berjualan.</p>
-                                <div class="progressBar d-flex align-items-center gap-2 my-3">
-                                    <div class="progress w-100" role="progressbar" aria-label="Basic example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar w-75"></div>
-                                    </div>
-                                    <p class="text-blue fw-bolder">95%</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="apk d-flex align-items-center gap-5 p-3 mt-3">
-                            <div class="apkImg">
-                                <img src="{{asset('../../images/tiktokMini.png')}}">
-                            </div>
-                            <div class="apkText">
-                                <p class=" my-3"><span class="fw-bold">TikTok</span> untuk saat ini platform paling
-                                    cocok untuk anda
-                                    berjualan.</p>
-                                <div class="progressBar d-flex align-items-center gap-2 my-3">
-                                    <div class="progress w-100" role="progressbar" aria-label="Basic example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar w-75"></div>
-                                    </div>
-                                    <p class="text-blue fw-bolder">95%</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="apk d-flex align-items-center gap-5 p-3 mt-3">
-                            <div class="apkImg">
-                                <img src="{{asset('../../images/tiktokMini.png')}}">
-                            </div>
-                            <div class="apkText">
-                                <p class=" my-3"><span class="fw-bold">TikTok</span> untuk saat ini platform paling
-                                    cocok untuk anda
-                                    berjualan.</p>
-                                <div class="progressBar d-flex align-items-center gap-2 my-3">
-                                    <div class="progress w-100" role="progressbar" aria-label="Basic example"
-                                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar w-75"></div>
-                                    </div>
-                                    <p class="text-blue fw-bolder">95%</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="apk d-flex align-items-center gap-5 p-3 mt-3">
-                            <div class="apkImg">
-                                <img src="{{asset('../../images/tiktokMini.png')}}">
                             </div>
                             <div class="apkText">
                                 <p class=" my-3"><span class="fw-bold">TikTok</span> untuk saat ini platform paling
@@ -519,7 +417,9 @@
     </div>
 </div>
 
-@include('NewPagesTemplate.Footer')
+<div class="footerBeranda" style="margin-top: 5rem;">
+    @include('NewPagesTemplate.Footer')
+</div>
 
 
 
