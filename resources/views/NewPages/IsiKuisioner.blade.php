@@ -381,9 +381,21 @@
                 </div>
             </div>
         </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6 col-sm-7 col-10 text-center">
+                <p class="fw-bold">Jenis Kelamin</p>
+                <p>Ini akan menentukan avatar Anda di layar hasil</p>
+                <select class="form-select p-sm-3 p-1 my-3 mx-auto" aria-label="Default select example">
+                    <option selected>Pilih kelamin Anda</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+            </div>
+        </div>
         <div class="btn-next d-flex justify-content-center mt-5">
             <a class="btn bg-blue d-flex align-items-center gap-2 justify-content-center py-sm-3 py-2 px-5" href="/hasil" role="button">
-                <p>Selanjutnya</p>
+                <p>Lihat Hasil</p>
                 <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
                 <p></p>
             </a>
