@@ -16,7 +16,7 @@
                 <div class="row justify-content-center">
                   <div class="col-md-4 col-10"> 
                     <div class="imageCover">
-                      <img class="my-3" src="{{asset('../../images/orangHasil.png')}}">
+                      <img class="my-3" src="{{asset('../../images/HasilOrangTop.png')}}">
                     </div>
                   </div>
                 </div>
