@@ -5,7 +5,13 @@
 .mySlides {
     margin: auto;
     height: 75vh;
-    display:none
+    display:none;
+}
+.divActive{
+    display: block;
+}
+.divOff{
+    display: none;
 }
 /* .mySlideContent img{
     height: 100%;
