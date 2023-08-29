@@ -3,9 +3,10 @@
     height: auto;
     object-fit: contain;
 }
-.responsive-tab-content{
-    height: 65vh;
-    overflow: auto;
+.flex-column{
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 80;
 }
 
 .hr-beranda {

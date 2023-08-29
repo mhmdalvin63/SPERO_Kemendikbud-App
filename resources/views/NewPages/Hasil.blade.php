@@ -4,10 +4,10 @@
 @section('contentNoCenter')
 <link rel="stylesheet" href=" {{ asset('../css/NewPages/Hasil.css')}}">
 
-<div class="hasilContent d-flex justify-content-center">
+<div class="hasilContent">
     <div class="contentFlex mt-3">
-      <div class="w3-content">
-        <div class="mySlides text-center">
+      <div class="carousel">
+        <div class="carousel-item text-center">
           <div class="mySlideContent py-5">
             <div class="row justify-content-center">
               <div class="col-10">
@@ -26,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div class="mySlides">
+        <div class="carousel-item">
           <div class="mySlideContent">
             <div class="title text-center py-4" style="background-color: #2388FF;">
               <p class="fw-bold text-white">PIKIRAN</p>
@@ -62,7 +62,7 @@
             </div>
           </div>
         </div>
-        <div class="mySlides">
+        <div class="carousel-item">
           <div class="mySlideContent">
             <div class="title text-center py-4" style="background-color: #9123FF;">
               <p class="fw-bold text-white">energi</p>
@@ -98,7 +98,7 @@
             </div>
           </div>
         </div>
-        <div class="mySlides">
+        <div class="carousel-item">
           <div class="mySlideContent">
             <div class="title text-center py-4" style="background-color: #1C8E00;">
               <p class="fw-bold text-white">ALAM</p>
@@ -134,7 +134,7 @@
             </div>
           </div>
         </div>
-        <div class="mySlides">
+        <div class="carousel-item">
           <div class="mySlideContent">
             <div class="title text-center py-4" style="background-color: #AD000A;">
               <p class="fw-bold text-white">TAKTIK</p>
@@ -170,7 +170,7 @@
             </div>
           </div>
         </div>
-        <div class="mySlides">
+        <div class="carousel-item">
           <div class="mySlideContent">
             <div class="title text-center py-4" style="background-color: #D88100;">
               <p class="fw-bold text-white">IDENTITAS</p>
@@ -207,56 +207,106 @@
           </div>
         </div>
         <div class="w3-center text-center">
-            <button class="dots-button demo" onclick="currentDiv(1)">&#8226;</button> 
+            {{-- <button class="dots-button demo" onclick="currentDiv(1)">&#8226;</button> 
             <button class="dots-button demo" onclick="currentDiv(2)">&#8226;</button> 
             <button class="dots-button demo" onclick="currentDiv(3)">&#8226;</button> 
             <button class="dots-button demo" onclick="currentDiv(4)">&#8226;</button> 
             <button class="dots-button demo" onclick="currentDiv(5)">&#8226;</button> 
-            <button class="dots-button demo" onclick="currentDiv(6)">&#8226;</button> 
+            <button class="dots-button demo" onclick="currentDiv(6)">&#8226;</button>  --}}
             <div class="buttonNp">
               <div class="w3-section">
-                <button class="w3-button w3-light-grey" onclick="plusDivs(-1)"><p>❮ Sebelumnya</p></button>
-                <button class="w3-button w3-light-grey" onclick="plusDivs(1)"><p>Selanjutnya  ❯</p></button>
+                <button class="carousel-prev"><p>❮  Sebelumnya</p></button>
+                <button class="carousel-next"><p>Selanjutnya  ❯</p></button>
+                <a class="carousel-done" href="/beranda"><p>Selesai  ❯</p></a>
               </div>
             </div>
             
         </div>
       </div>
-
-  </div>
+      {{-- <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-item active">
+            <h1>HAIII 1</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>HAIII 2</h1>
+          </div>
+          <div class="carousel-item">
+            <h1>HAIII 3</h1>
+          </div>
+        </div>
+        <button class="carousel-prev">Previous</button>
+        <button class="carousel-next">Next</button>
+      </div> --}}
+      
+    </div>
 </div>
 <div class="FooterKuisioner" style="padding-top: 2.5rem;">
   @include('NewPagesTemplate.Footer')
 </div>
 @endsection
  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-    <script src="text/javascript"></script>
+    <script type="text/javascript"></script>
     <script>
-      var slideIndex = 0;
-      showDivs(slideIndex);
-      
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
-        
-        function currentDiv(n) {
-          showDivs(slideIndex = n);
-        }
-        
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dots-button");
-          // if (n > 6) {slideIndex = 1}    
-          // if (n < 1) {slideIndex = 6}
-          for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" w3-red", "");
-          }
-          x[slideIndex-1].style.display = "block";  
-          // x[slideIndex-1].style.transform = "translateY(-50%)";  
-          dots[slideIndex-1].className += " w3-red";
-        }
-        </script>
+      document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.querySelector(".carousel");
+  const prevButton = document.querySelector(".carousel-prev");
+  const nextButton = document.querySelector(".carousel-next");
+  const items = document.querySelectorAll(".carousel-item");
+  let currentIndex = 0;
+
+  let last = items.length;
+  // console.log(last)
+  function showItem(index) {
+    items.forEach((item, i) => {
+      if (i === index) {
+        item.classList.add("active");
+      } else {
+        item.classList.remove("active");
+      }
+    });
+  }
+
+  function prevSlide() {
+    currentIndex = (currentIndex - 1 + items.length) % items.length;
+    showItem(currentIndex);
+    console.log(currentIndex)
+    if (currentIndex == (last - 1)) {
+      $( ".carousel-done" ).css("display", "block");
+      $( ".carousel-next" ).css("display", "none");
+    }else{
+      $( ".carousel-done" ).css("display", "none");
+      $( ".carousel-next" ).css("display", "block");
+    }
+  }
+
+  function nextSlide() {
+    currentIndex = (currentIndex + 1) % items.length;
+    showItem(currentIndex);
+    if (currentIndex == (last - 1)) {
+      $( ".carousel-done" ).css("display", "block");
+      $( ".carousel-next" ).css("display", "none");
+    }else{
+      $( ".carousel-done" ).css("display", "none");
+      $( ".carousel-next" ).css("display", "block");
+    }
+  }
+
+  prevButton.addEventListener("click", prevSlide);
+  nextButton.addEventListener("click", nextSlide);
+
+  // Show the initial slide
+  showItem(currentIndex);
+
+  function cekLast(e) {
+      if ($( ".carousel .carousel-item" ).eq(5).is(":visible")) {
+        alert('test')
+      } else {
+      }
+    
+  }
+
+
+});
+
+    </script>
