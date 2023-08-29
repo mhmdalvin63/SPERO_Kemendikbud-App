@@ -56,13 +56,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="jawaban-a">
                         <label class="form-check-label" for="flexRadioDefault1">
                            <p> Manual dengan tenaga manusia</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="jawaban-b">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan alat produksi manual</p>
                         </label>
@@ -70,13 +70,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="jawaban-c" checked='checked'>
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi dan alat produksi manual</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="jawaban-d">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi</p>
                         </label>
@@ -387,9 +387,8 @@
                 <p>Ini akan menentukan avatar Anda di layar hasil</p>
                 <select class="form-select p-sm-3 p-1 my-3 mx-auto" aria-label="Default select example">
                     <option selected>Pilih kelamin Anda</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    <option value="1">Laki-Laki</option>
+                    <option value="2">Perempuan</option>
                   </select>
             </div>
         </div>
