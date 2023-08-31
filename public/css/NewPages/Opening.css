@@ -49,11 +49,13 @@ body{
 }
 .objectLeft{
     position: absolute;
+    z-index: -1;
     left: 0;
     bottom: 0;
 }
 .objectRight{
     position: absolute;
+    z-index: -1;
     Right: 0;
     bottom: 0;
 }
