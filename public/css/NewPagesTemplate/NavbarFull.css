@@ -11,3 +11,9 @@ nav{
 .fa-bell{
     color: gold;
 }
+
+.logoPersona{
+    width: 25%;
+    height: auto;
+    object-fit: contain;
+}

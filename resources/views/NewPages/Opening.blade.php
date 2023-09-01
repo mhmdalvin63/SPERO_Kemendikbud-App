@@ -14,7 +14,8 @@
     
     <div class="openingContent">
        <div class="content">
-        <h3 class="fw-bold">Pesona <span class="text-blue">UMKM</span></h3>
+        <img class="my-3 logoPersona" src="{{asset('../../images/logoPersona.png')}}">
+        
         <div class="form">
           <div class="form-group my-3">
               <div class="form-input-container">

@@ -2,7 +2,10 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed w-100" style="z-index: 99;">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="#"><p>Persona <span class="text-blue">UMKM</span></p></a>
+      <a class="navbar-brand fw-bold" href="#">
+        <img class="logoPersona" src="{{asset('../../images/logoPersona.png')}}">
+        
+      </a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <p>
           <span class="navbar-toggler-icon"></span>
@@ -10,7 +13,7 @@
       </button>
       <div class="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <div class="menu d-block d-lg-flex justify-content-lg-center justify-content-start">
+          <div class="menu d-block d-lg-flex justify-content-start">
             <a class="nav-link text-start" aria-current="page" href="/hasil-umkm"><p>Hasil</p></a>
             <a class="nav-link text-start" href="/umkm"><p>UMKM</p></a>
           </div>
