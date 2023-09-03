@@ -56,13 +56,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="jawaban-a">
+                        <input class="form-check-input" type="radio" name="jawaban-a" id="flexRadioDefault1" value="jawaban-a">
                         <label class="form-check-label" for="flexRadioDefault1">
                            <p> Manual dengan tenaga manusia</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="jawaban-b">
+                        <input class="form-check-input" type="radio" name="jawaban-b" id="flexRadioDefault1" value="jawaban-b">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan alat produksi manual</p>
                         </label>
@@ -70,13 +70,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="jawaban-c" checked='checked'>
+                        <input class="form-check-input" type="radio" name="jawaban-c" id="flexRadioDefault1" value="jawaban-c">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi dan alat produksi manual</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="jawaban-d">
+                        <input class="form-check-input" type="radio" name="jawaban-d" id="flexRadioDefault1" value="jawaban-d">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi</p>
                         </label>
@@ -89,13 +89,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-a" id="flexRadioDefault1" value="jawaban-a">
                         <label class="form-check-label" for="flexRadioDefault1">
                            <p> Manual dengan tenaga manusia</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-b" id="flexRadioDefault1" value="jawaban-b">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan alat produksi manual</p>
                         </label>
@@ -103,13 +103,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-c" id="flexRadioDefault1" value="jawaban-c">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi dan alat produksi manual</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-d" id="flexRadioDefault1" value="jawaban-d">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi</p>
                         </label>
@@ -122,13 +122,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-a" id="flexRadioDefault1" value="jawaban-a">
                         <label class="form-check-label" for="flexRadioDefault1">
                            <p> Manual dengan tenaga manusia</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-b" id="flexRadioDefault1" value="jawaban-b">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan alat produksi manual</p>
                         </label>
@@ -136,13 +136,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-c" id="flexRadioDefault1" value="jawaban-c">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi dan alat produksi manual</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-d" id="flexRadioDefault1" value="jawaban-d">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi</p>
                         </label>
@@ -155,13 +155,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-a" id="flexRadioDefault1" value="jawaban-a">
                         <label class="form-check-label" for="flexRadioDefault1">
                            <p> Manual dengan tenaga manusia</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-b" id="flexRadioDefault1" value="jawaban-b">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan alat produksi manual</p>
                         </label>
@@ -169,13 +169,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-c" id="flexRadioDefault1" value="jawaban-c">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi dan alat produksi manual</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-d" id="flexRadioDefault1" value="jawaban-d">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi</p>
                         </label>
@@ -188,13 +188,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-a" id="flexRadioDefault1" value="jawaban-a">
                         <label class="form-check-label" for="flexRadioDefault1">
                            <p> Manual dengan tenaga manusia</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-b" id="flexRadioDefault1" value="jawaban-b">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan alat produksi manual</p>
                         </label>
@@ -202,13 +202,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-c" id="flexRadioDefault1" value="jawaban-c">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi dan alat produksi manual</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-d" id="flexRadioDefault1" value="jawaban-d">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi</p>
                         </label>
@@ -221,13 +221,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-a" id="flexRadioDefault1" value="jawaban-a">
                         <label class="form-check-label" for="flexRadioDefault1">
                            <p> Manual dengan tenaga manusia</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-b" id="flexRadioDefault1" value="jawaban-b">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan alat produksi manual</p>
                         </label>
@@ -235,13 +235,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-c" id="flexRadioDefault1" value="jawaban-c">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi dan alat produksi manual</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-d" id="flexRadioDefault1" value="jawaban-d">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi</p>
                         </label>
@@ -254,13 +254,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-a" id="flexRadioDefault1" value="jawaban-a">
                         <label class="form-check-label" for="flexRadioDefault1">
                            <p> Manual dengan tenaga manusia</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-b" id="flexRadioDefault1" value="jawaban-b">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan alat produksi manual</p>
                         </label>
@@ -268,13 +268,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-c" id="flexRadioDefault1" value="jawaban-c">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi dan alat produksi manual</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-d" id="flexRadioDefault1" value="jawaban-d">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi</p>
                         </label>
@@ -287,13 +287,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-a" id="flexRadioDefault1" value="jawaban-a">
                         <label class="form-check-label" for="flexRadioDefault1">
                            <p> Manual dengan tenaga manusia</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-b" id="flexRadioDefault1" value="jawaban-b">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan alat produksi manual</p>
                         </label>
@@ -301,13 +301,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-c" id="flexRadioDefault1" value="jawaban-c">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi dan alat produksi manual</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-d" id="flexRadioDefault1" value="jawaban-d">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi</p>
                         </label>
@@ -320,13 +320,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-a" id="flexRadioDefault1" value="jawaban-a">
                         <label class="form-check-label" for="flexRadioDefault1">
                            <p> Manual dengan tenaga manusia</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-b" id="flexRadioDefault1" value="jawaban-b">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan alat produksi manual</p>
                         </label>
@@ -334,46 +334,13 @@
                 </div>
                 <div class="col-sm-6 col-12 mt-2">
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-c" id="flexRadioDefault1" value="jawaban-c">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi dan alat produksi manual</p>
                         </label>
                     </div>
                     <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            <p>Dengan mesin produksi</p>
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4 foreach">
-                <div class="col-12">
-                    <p class="fw-bold">1. Bagaimana Bapak/Ibu memproduksi barang yang akan dijual ?</p>
-                </div>
-                <div class="col-sm-6 col-12 mt-2">
-                    <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                           <p> Manual dengan tenaga manusia</p>
-                        </label>
-                    </div>
-                    <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            <p>Dengan alat produksi manual</p>
-                        </label>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-12 mt-2">
-                    <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            <p>Dengan mesin produksi dan alat produksi manual</p>
-                        </label>
-                    </div>
-                    <div class="form-check mt-2">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <input class="form-check-input" type="radio" name="jawaban-d" id="flexRadioDefault1" value="jawaban-d">
                         <label class="form-check-label" for="flexRadioDefault1">
                             <p>Dengan mesin produksi</p>
                         </label>
