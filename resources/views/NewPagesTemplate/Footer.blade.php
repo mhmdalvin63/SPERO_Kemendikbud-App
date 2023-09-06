@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-md-between align-items-start">
             <div class="col-lg-2 col-md-2 col-12 footerLogo">
-                <h3>Pesona <br> UMKM</h3>
+                <h3>Persona <br> UMKM</h3>
             </div>
             <div class="col-lg-2 col-md-2 col-12 footerTitle">
                 <p class="xl fw-bold my-2">MENU</p>
